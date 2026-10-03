@@ -2,6 +2,7 @@ name: Probe
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   ping:
